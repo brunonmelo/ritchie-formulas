@@ -22,7 +22,7 @@ public class Formula {
         System.out.println(Chalk.on(String.format("My name is %s.", inputText)).green());
 
         if (inputBoolean) {
-            System.out.println(Chalk.on("I’ve already created formulas using Ritchie.").blue());
+            System.out.println(Chalk.on("I’ve already created formulas using Ritchie.").blue().bgWhite());
         } else {
             System.out.println(Chalk.on("I’m excited in creating new formulas using Ritchie.").red());
         }
